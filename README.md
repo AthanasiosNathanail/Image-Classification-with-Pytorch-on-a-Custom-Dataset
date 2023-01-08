@@ -56,7 +56,7 @@ ImageFolder expects data to be stored in the following way:
 (works similarly for jpeg or jpg image format)
 
 That is, each folder in the root directory is the name of a class, and within each of those folders are the images that correspond to that class. 
-The images in the custom dataset used for this notebook are currently in the form of:
+The images in the custom dataset used for this notebook are placed in a folder named "Images", in the form of:
     
     repository main folder/Images/class1/1.jpg
     repository main folder/Images/class1/2.jpg   
@@ -74,7 +74,7 @@ Once you have assembled your dataset, we will need to split our data into train 
 
 For this project I did a manual split on the data between train, validation and test data. The proportions of the dataset after the split are usually 70% training data, 20% validation data, and 10% test data. Of course, the choice of the split percentages is up to the user, but it is recommended to have at least 70% of the data for training.
 
-After the successful split, there should be another folder in your projects directory with the following structure:
+After the successful split, there should be another folder in your projects directory named "data" with the following structure:
 
     # Train
     repository main folder/data/train/class1/1.jpg
